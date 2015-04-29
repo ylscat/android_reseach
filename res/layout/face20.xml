@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+    <android.opengl.GLSurfaceView android:id="@+id/gl_view1"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"/>
+    <android.opengl.GLSurfaceView android:id="@+id/gl_view2"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"/>
+    <android.opengl.GLSurfaceView android:id="@+id/gl_view3"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"/>
+    <RadioGroup android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/radio_button0"
+                     android:checked="true"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Created by Golden rectangles"/>
+        <RadioButton android:id="@+id/radio_button1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Created by Symmetric vertices"/>
+        <RadioButton android:id="@+id/radio_button2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Lighted"/>
+    </RadioGroup>
+</FrameLayout>
+

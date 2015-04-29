@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="arbell.research"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="21"/>
+    <uses-feature>android.hardware.usb.host</uses-feature>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+            android:name="Application">
+        <activity android:name="Catalogue"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".academy.rotation.RotationQuaternion"
+                  android:label="Rotation Quaternion"/>
+        <activity android:name=".academy.rotation.RotationVector"
+                  android:label="Rotation Vector"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".academy.rotation.ShrinkRotation"
+                  android:label="Rotation Vector"/>
+        <activity android:name=".academy.shapes.Face4"/>
+        <activity android:name=".academy.shapes.Face12"/>
+        <activity android:name=".academy.shapes.Face20"/>
+        <activity android:name=".academy.shapes.Sphere"/>
+        <activity android:name=".peripheral.sensor.SensorList"
+                  android:label="Sensor List"/>
+        <activity android:name=".peripheral.sensor.Barometer"
+                  android:label="Barometer"/>
+        <activity android:name=".peripheral.sensor.Light"
+                  android:label="Light"/>
+        <activity android:name=".peripheral.usb.UsbDevices"
+                  android:label="USB devices"/>
+        <activity android:name=".peripheral.usb.UsbCommunication"
+                  android:label="USB Communication"/>
+        <activity android:name=".peripheral.usb.UsbReceiver"
+                  android:label="USB Receiver"/>
+        <activity android:name=".ui.Gesture"
+                  android:label="Gesture"/>
+        <activity android:name=".ui.ScaleGesture"
+                  android:label="ScaleGesture"/>
+        <activity android:name=".network.UdpTest"
+                  android:label="UDP Test"/>
+        <activity android:name=".network.WifiMonitor"
+                  android:label="Wifi Monitor"/>
+        <activity android:name=".network.NetworkProfiler"
+                  android:label="Network Profiler"/>
+        <activity android:name=".academy.stereo.HalfDisplay"
+                  android:label="Half Display"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".academy.stereo.SimpleTest"
+                  android:label="Simple Test"
+                  android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".academy.stereo.SimpleTest2"
+                  android:label="Simple Test2"
+                  android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".view.CanvasResearch"
+                  android:label="Canvas Research"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ui.AnimatorDemo"
+                  android:label="Animator Demo"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".view.TouchDispatch"
+                  android:label="Touch Dispatch"
+                  android:screenOrientation="portrait"/>
+        <meta-data
+                android:name="com.baidu.lbsapi.API_KEY"
+                android:value="nothing" />
+    </application>
+</manifest>

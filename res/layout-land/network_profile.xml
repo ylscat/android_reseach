@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <RadioGroup android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/connection_type">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:id="@+id/type_udp"
+                         android:text="UDP"
+                         android:textAppearance="@android:style/TextAppearance.Large"
+                         android:checked="true"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:id="@+id/type_tcp"
+                         android:textAppearance="@android:style/TextAppearance.Large"
+                         android:text="TCP"/>
+        </RadioGroup>
+        <View android:layout_width="0px" android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/connection_state"
+                  android:drawablePadding="5dp"
+                  android:textAppearance="@android:style/TextAppearance.Large"/>
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/text"
+              android:layout_gravity="center_horizontal"
+              android:text="Message"
+              android:textAppearance="@android:style/TextAppearance.Large"/>
+    <view class="research.ivory.ui.GraphView"
+          android:id="@+id/graphView"
+          android:layout_width="match_parent"
+          android:layout_height="0px"
+          android:layout_weight="1"/>
+</LinearLayout>

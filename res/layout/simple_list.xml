@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/container"
+              android:animateLayoutChanges="true">
+    <research.ivory.ui.TextView4Debug android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                      android:textAppearance="@android:style/TextAppearance.Large"
+                                      android:padding="10dp"
+                                      android:text="First Line"/>
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="?android:colorForeground"/>
+    <research.ivory.ui.TextView4Debug android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                      android:textAppearance="@android:style/TextAppearance.Large"
+                                      android:padding="10dp"
+                                      android:text="Second Line"/>
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="?android:colorForeground"/>
+    <research.ivory.ui.TextView4Debug android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                      android:textAppearance="@android:style/TextAppearance.Large"
+                                      android:padding="10dp"
+                                      android:text="Third Line"/>
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="?android:colorForeground"/>
+    <research.ivory.ui.TextView4Debug android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                      android:textAppearance="@android:style/TextAppearance.Large"
+                                      android:padding="10dp"
+                                      android:text="Forth Line"/>
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="?android:colorForeground"/>
+    <research.ivory.ui.TextView4Debug android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                      android:textAppearance="@android:style/TextAppearance.Large"
+                                      android:padding="10dp"
+                                      android:text="Fifth Line"/>
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+          android:background="?android:colorForeground"/>
+</LinearLayout>

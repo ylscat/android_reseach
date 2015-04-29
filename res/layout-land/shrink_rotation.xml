@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <android.opengl.GLSurfaceView android:id="@+id/gl_view"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"/>
+    <LinearLayout android:layout_width="200dp"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <TextView android:id="@+id/angle"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textAppearance="@android:style/TextAppearance.Large"/>
+        <Button android:id="@+id/button0"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Shrink"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:onClick="shrink"/>
+        <Button android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.Large"/>
+    </LinearLayout>
+</FrameLayout>
+

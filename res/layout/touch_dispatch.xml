@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <arbell.research.view.MyHorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hsv">
+        <LinearLayout android:layout_width="1200dp" android:layout_height="match_parent">
+            <com.baidu.mapapi.map.MapView
+                    android:layout_width="360dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:id="@+id/map_view"/>
+            <TextView android:layout_width="360dp"
+                      android:layout_height="match_parent"
+                      android:text="Span1"
+                      android:textAppearance="@android:style/TextAppearance.Large"/>
+            <TextView android:layout_width="360dp"
+                      android:layout_height="match_parent"
+                      android:text="Span2"
+                      android:textAppearance="@android:style/TextAppearance.Large"
+                      android:background="@android:color/holo_green_light"/>
+        </LinearLayout>
+    </arbell.research.view.MyHorizontalScrollView>
+    <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/switcher"/>
+</FrameLayout>
