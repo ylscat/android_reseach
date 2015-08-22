@@ -16,7 +16,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import arbell.research.R;
-import arbell.research.ui.GraphView;
+import arbell.research.ui.view.GraphView;
 import arbell.research.util.Constants;
 
 import java.io.IOException;

@@ -1,14 +1,13 @@
-package arbell.research.view;
+package arbell.research.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.ToggleButton;
 import arbell.research.R;
+import arbell.research.ui.view.MyHorizontalScrollView;
+
 import com.baidu.mapapi.map.MapView;
 
 /**

@@ -31,7 +31,7 @@
               android:layout_gravity="center_horizontal"
               android:text="Message"
               android:textAppearance="@android:style/TextAppearance.Large"/>
-    <view class="arbell.research.ui.GraphView"
+    <view class="arbell.research.ui.view.GraphView"
           android:id="@+id/graphView"
           android:layout_width="match_parent"
           android:layout_height="0px"

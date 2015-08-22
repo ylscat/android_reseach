@@ -1,4 +1,4 @@
-package arbell.research.ui;
+package arbell.research.ui.view;
 
 import android.content.Context;
 import android.graphics.*;

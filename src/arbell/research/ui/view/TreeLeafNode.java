@@ -1,4 +1,4 @@
-package arbell.research.view;
+package arbell.research.ui.view;
 
 /**
  * @author YinLanshan

@@ -1,4 +1,4 @@
-package arbell.research.view;
+package arbell.research.ui.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

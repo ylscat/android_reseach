@@ -1,4 +1,4 @@
-package arbell.research.view;
+package arbell.research.ui;
 
 import android.app.Activity;
 import android.content.Context;

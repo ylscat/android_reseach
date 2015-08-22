@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
@@ -65,15 +66,23 @@
                   android:label="Simple Test2"
                   android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
                   android:screenOrientation="landscape"/>
-        <activity android:name=".view.CanvasResearch"
+        <activity android:name=".ui.CanvasResearch"
                   android:label="Canvas Research"
                   android:screenOrientation="portrait"/>
         <activity android:name=".ui.AnimatorDemo"
                   android:label="Animator Demo"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".view.TouchDispatch"
+        <activity android:name=".ui.TouchDispatch"
                   android:label="Touch Dispatch"
                   android:screenOrientation="portrait"/>
+        <activity android:name=".ui.ViewportActivity"
+            android:label="Viewport"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.ImageControl"
+            android:label="Image Zoom Control"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".os.DeviceInfo"
+            android:screenOrientation="portrait"/>
         <meta-data
                 android:name="com.baidu.lbsapi.API_KEY"
                 android:value="nothing" />

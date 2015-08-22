@@ -6,9 +6,9 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.LinearLayout;
-import arbell.research.view.Navigator;
-import arbell.research.view.TreeLeafNode;
-import arbell.research.view.TreeNode;
+import arbell.research.ui.view.Navigator;
+import arbell.research.ui.view.TreeLeafNode;
+import arbell.research.ui.view.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package arbell.research.view;
+package arbell.research.ui.view;
 
 import android.animation.LayoutTransition;
 import android.annotation.SuppressLint;
