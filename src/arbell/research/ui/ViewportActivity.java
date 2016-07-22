@@ -5,6 +5,7 @@ import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 import java.io.IOException;
@@ -38,6 +39,7 @@ public class ViewportActivity extends Activity implements GestureListener.Callba
 //        bitmap.eraseColor(Color.MAGENTA);
         ImageView iv = new ImageView(this);
         iv.setImageBitmap(bitmap);
+        iv.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         arbell.research.ui.view.Viewport vp = new arbell.research.ui.view.Viewport(this);
         vp.addView(iv, WRAP_CONTENT, WRAP_CONTENT);
         setContentView(vp);
